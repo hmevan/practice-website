@@ -13,7 +13,7 @@ h1 {
 
 .half-width {
     width: 50%;
-    margin: 15px;
+    padding: 20px;
 }
 
 .half-width img {
@@ -37,14 +37,43 @@ h1 {
 }
 
 .spider-man {
-    margin: 15px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
 }
 
-.dream-big {
+.spider {
     width: 50%;
+}
+
+.shadow {
+    width: 40%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+
+.back-left {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
 
 section {
     display: flex;
     margin-bottom: 100px;
+}
+
+#border-orenge {
+    border-left: 5px solid orange;
+}
+
+#border-blue {
+    border-left: 5px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
