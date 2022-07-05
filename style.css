@@ -36,6 +36,15 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.spider-man {
+    margin: 15px;
+}
+
+.dream-big {
+    width: 50%;
+}
+
 section {
     display: flex;
+    margin-bottom: 100px;
 }
